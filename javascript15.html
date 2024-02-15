@@ -1,0 +1,35 @@
+<!DO<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript String Methods</h1>
+<p>Display the first array element</p>
+<input type="number" id="numero">
+<input type="button" value="comprobar" onclick="valida()">
+
+<p id="resultado"></p>
+
+
+
+<script>
+
+
+function valida() {
+let num = document.getElementById("numero").value
+if (num %2 == 0) {
+document.getElementById("resultado").innerHTML = "El número es Par";
+return;
+}
+document.getElementById("resultado").innerHTML = "El número es ImPar";
+}
+
+
+
+
+    
+ 
+
+</script>
+
+</body>
+</html>
